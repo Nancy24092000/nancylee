@@ -1,0 +1,690 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	scroll-behavior: smooth;
+}
+@font-face{
+	font-family: 'defatted milk';
+	src: url(../font/defatted_milk-light.ttf);
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	
+}
+.container01{
+	width: 1024px;
+	height: 3835px;
+	padding-bottom: 5px;
+	background-color: white;
+	margin: 0 auto;
+	
+}
+
+
+.menu{
+	width: 1024px;
+	height: 60px;
+	background-color: #fff;
+	margin: 0;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	
+}
+
+.menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+
+}
+
+.menu ul>li{
+	float: left;
+	position: relative;
+}
+.menu ul>li:hover{
+	background-color: #E1E1E1;
+}
+.menu ul>li>a{
+	color: #282828;
+	text-decoration: none;
+	line-height: 60px;
+	padding: 0px 22px;
+	font-family:  "Calibri";
+	font-size: 13px;
+	font-weight: 800;
+}
+
+
+.menu ul>li>ul{
+	
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	visibility:hidden;
+	
+}
+.menu>ul>li:hover ul {
+	display: block;
+	position: absolute;
+	visibility: visible;
+	left: 35px;
+	background-color: rgba(225,225,225,0.8) ;
+	width: 130px;
+	margin-left: -35px;
+	text-align: left;
+	padding-left: 0px;
+}
+.menu ul li ul li:hover{
+	background-color: rgba(255,255,255,0.80);
+	width: 100%;
+}
+	
+.logo{
+	float: left;
+	margin-left: 100px;
+	margin-top: 3px;
+}
+.menu-social{
+	width: 120px;
+	height: 60px;
+	float: right;
+	
+	margin-right: 85px;
+}
+.social-icon {
+	
+	float:right;
+	font-size: 20px;
+	padding:20px 10px;
+	line-height: 20px;
+	color: #282828;
+}
+
+
+
+
+
+
+
+
+
+.inside{
+	width: 100%;
+	height: 3240px;
+	background-color: white;
+}
+.slideshow{
+	width: 1024px;
+	height: 486px;
+	background-color:white;
+	margin: 0;
+	padding: 0px;
+}
+.info01{
+	display: flex;
+	background-color: white;
+	margin: 20px 0 20px 20px;
+}
+.icon01{
+	width: 480px;
+	height: 85px;
+	background-color: white;
+	margin: 0 20px 0 0px;
+	border: 3px double #999999;
+	
+}
+.icon01:hover{
+	transform: scale(0.98);
+}
+.icon01 img{
+	margin: 25px 0 0 30px;
+	float: left;
+}
+.icon01 p{
+	float: left;
+	margin: 28px 0 0 15px;
+	color: green;
+	font-family: "Calibri";
+	font-size: 20px;
+}
+
+	
+
+.gr01{
+	width: 870px;
+	height: 650px;
+	background-color: white;
+	margin: 0px 0 0 77px;
+}
+.clear{clear: both;}
+.veget01{
+	width: 410px;
+	height: 530px;
+	background-color:white;
+	float: left;
+	margin-left: 19px;
+	margin-top: 15px;
+
+}
+.veget01a{
+	width: 410px;
+	height: 486px;
+	background-color:white;
+	float: left;
+	margin-left: 19px;
+	margin-top: 15px;
+
+}
+.veget02{
+	width: 184px;
+	height: 245px;
+	background-color: white;
+	margin-bottom: 10px;
+	float: right;
+	margin-right: 10px;
+}
+.veget02 img:hover{
+	transform: scale(1.05);
+	opacity: 0.8;
+}
+.veget04 img:hover{
+	transform: scale(1.05);
+	opacity: 0.8;
+}
+.veget02 h4{
+	margin: 0;
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: 800;
+	color: #525252;
+	font-size: 18px;
+}
+.veget02 p{
+	margin: 2px 0 0 0;
+	font-size: 13px;
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: 800;
+	color: #50AA4E;
+	
+}
+.veget02 span{
+	margin-left: 8px;
+	font-family: "Calibri";
+	font-weight: 800;
+	font-size: 13px;
+	color: #50AA4E;
+}
+.veget02 del{
+	margin-left: 50px;
+	font-family: "Calibri";
+	font-weight: 800;
+	font-size: 13px;
+	color: #D9D9D9;
+}
+.gr02{
+	width: 870px;
+	height: 530px;
+	background-color: white;
+	margin: 0px 0 0 77px;
+}
+.gr03{
+	width: 870px;
+	height: 490px;
+	background-color: white;
+	margin: 0px 0 0 77px;
+}
+.veget03{
+	width: 405px;
+	height: 486px;
+	background-color: white;
+	float: right;
+	margin-top: 40px;
+	margin-right: 25px;
+}
+.veget03a{
+	width: 400px;
+	height: 486px;
+	background-color: white;
+	float: right;
+	margin-top: 40px;
+	margin-right: 019px;
+}
+.veget03a img{float: right;}
+
+.veget04 {
+	float: left;
+	margin: 0px 18px 52px 0px;
+	background-color: white;
+	width: 184px;
+	height: 245px;
+	margin-bottom: 10px;
+}
+.veget04 h4{
+	margin: 0;
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: 800;
+	color: #525252;
+	font-size: 18px;
+}
+.veget04 p{
+	margin: 2px 0 0 0;
+	font-size: 13px;
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: 800;
+	color: #50AA4E;
+	
+}
+.veget04 span{
+	margin-left: 8px;
+	font-family: "Calibri";
+	font-weight: 800;
+	font-size: 13px;
+	color: #50AA4E;
+}
+.veget04 del{
+	margin-left: 50px;
+	font-family: "Calibri";
+	font-weight: 800;
+	font-size: 13px;
+	color: #D9D9D9;
+}
+.veget04 span{
+	margin-left: 8px;
+	font-family: "Calibri";
+	font-weight: 800;
+	font-size: 13px;
+	color: #50AA4E;
+}
+.veget04 del{
+	margin-left: 50px;
+	font-family: "Calibri";
+	font-weight: 800;
+	font-size: 13px;
+	color: #D9D9D9;
+}
+.banner{
+	width: 1024px;
+	height: 321px;
+	margin-top: 40px;
+	position: relative;
+}
+.gr03a{
+	display: flex;
+	
+}
+.member img{
+
+	margin: 0px 20px 18px;
+}
+.member{
+	position: relative;
+	
+}
+.mem-name{
+	background-color: rgba(30,30,30,0.5);
+	position: absolute;
+	top: 250px;
+	left: 20px;
+	width: 180px;
+	height: 60px;
+}
+.mem-name h4{
+	margin: 3px 20px;
+	padding: 0;
+	color: white;
+}
+.mem-name p{
+	margin: 3px 20px;
+	padding: 0;
+	color: rgba(205,205,205,1.00);
+	font-size: 13px;
+	font-family: "Calibri";
+}
+.gr03 h1{
+	text-align: center;
+	margin: 30px 0 0 0;
+	padding: 0;
+	font-family: "defatted milk";
+	font-weight: 600;
+	font-size:70px;
+	letter-spacing: 2px;
+}
+.grey{
+	width: 1024px;
+	height: 320px;
+	background-color: #f0efeb;
+}
+.gr04{
+	
+	background-color: none;
+	margin: 0px 0 0 77px;
+	display: flex;
+}
+.brand{
+	
+	margin: 0 8px 0 22px;
+}
+.brand:hover{
+	transform: scale(1.05)
+}
+.grey h1{
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	font-family:"defatted milk";
+	font-weight: 600;
+	font-size:70px;
+	letter-spacing: 2px;
+}
+
+.info{
+	width: 184px;
+	height: 40px;
+	float: left;
+	margin: 20px 0 0 20px;
+	border: none;
+	background-color: #f0efeb;
+}
+.info::placeholder{
+	padding-left: 15px;
+}
+.email::placeholder{
+	padding-left: 15px;
+}
+.message::placeholder{
+	padding-left: 15px;
+	font-family: "Calibri";
+	padding-top: 10px;
+	letter-spacing: 2px;
+}
+.email{
+	width: 388px;
+	height: 40px;
+	margin: 0 0 0 20px;
+	border: none;
+	background-color: #f0efeb;
+}
+.message{
+	width: 388px;
+	height: 100px;
+	margin: 0 0 0 20px;
+	border: none;
+	background-color: #f0efeb;
+}
+
+.veget05{
+	float: left;
+	margin-top: 20px;
+}
+.veget06{
+	float: left;
+	margin-top: 20px;
+	margin-left: -70px;
+	
+}
+.submit{
+	width: 150px;
+	height: 40px;
+	margin: 0 0 0 20px;
+	border: none;
+	background-color: #3a6935;
+	color: white;
+}
+.footer{
+	width: 1024px;
+	height: 450px;
+	background-color: #2b2a28;
+	margin-top: 50px;
+	position: relative;
+	
+}
+.footer-bottom{
+	position: absolute;
+	bottom:-30px;
+	background-color: #000;
+	width: 1024px;
+	height: 50px;
+	z-index: 10000;
+	
+}
+.footer-bottom p{
+	color: #858585;
+	margin-left: 100px;
+	font-family: "Calibri";
+	font-size: 13px;
+	line-height: 30px;
+}
+.footer-info01{
+	width: 215px;
+	height: 138px;
+	color:#858585;
+	border-bottom: 1px solid #858585;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	font-size: 15px;
+	margin-top: 45px;
+}
+.footer-info01 p{
+	margin-top: 5px;
+	font-family:Calibri;
+}
+.footer-info02{
+	width: 215px;
+	height: 140px;
+	color:#858585;
+	position: absolute;
+	bottom: 80px;
+	left: 100px;
+	font-size: 15px;
+}
+.footer-icon01{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.footer-icon02{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: "Calibri";
+}
+.footer-icon02 p{
+	color: white
+}
+.footer-contact02 h2{
+	color:#fff;
+	margin-top: 2px;
+	font-family: "Calibri";
+	font-size: 20px
+}
+.footer-contact02 h3{
+	color:#fff;
+	margin-top: 25px;
+	font-family: "Calibri";
+	font-size: 15px;
+	float: left;
+}
+.footer-contact02 p{
+
+	margin-top:0;
+	font-family: "Calibri";
+	font-size: 15px;
+}
+.submit02{
+	width: 270px;
+	height: 40px;
+	margin-top:10px;
+	background-color: #565656;
+	border: none;
+	margin-bottom:-10px;
+	font-size: 10px;
+	
+}
+.submit02::placeholder{
+	text-align: center;
+	color: #fff;
+}
+.submit02:focus::-webkit-input-placeholder { color:transparent; } /*disapear placeholder khi click vao*/
+.info:focus::-webkit-input-placeholder { color:transparent; }
+.email:focus::-webkit-input-placeholder { color:transparent; }
+.message:focus::-webkit-input-placeholder { color:transparent; }
+.submit03{
+	width: 270px;
+	height: 40px;
+	background-color: #fff;
+	border: none;
+	color: #565656;
+	font-size: 10px;
+	margin-top: 0px;
+}
+.footer-contact02{
+	width: 270px;
+	height: 300px;
+	position: absolute;
+	bottom: 50px;
+	left: 380px;
+	color:#858585;
+
+}
+.footer-contact03{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 90px;
+	right: 100px;
+	color:#fff;
+	font-family: "Calibri";
+}
+.footer-contact03 h2{
+	font-family: "Calibri";
+	font-size: 20px
+}
+.hoa{
+	float: left;
+	margin: 5px 5px 0 0;
+}
+.footer-social{
+	color: white;
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+	
+}
+#myBtn {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+ 
+ 
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.banner-box{
+	position: absolute;
+	top: 30px;
+	left: 300px;
+	
+}
+.banner-box h1{
+	color: #fff;
+	text-align: center;
+	font-family: "defatted milk";
+	font-size: 80px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.banner-box p{
+	color:rgba(189,189,189,0.8);
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: 400;
+}
+.submit04{
+	
+	width:190px;
+	height: 40px;
+	margin: 0 0 0 20px;
+	border: none;
+	background-color: #3a6935;
+	color: white;
+	font-family: "Calibri";
+	font-size: 13px;
+}
+.mySlides {display:none;
+position: relative;
+margin-left: -22px;
+}
+
+.button01{
+	position: absolute;
+	top: 220px;
+	left:-22px;
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	border: none;
+}
+.button02{
+	position: absolute;
+	top: 220px;
+	right: -22px;
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	border: none;
+}
+.intro{
+	position: absolute;
+	top: 80px;
+	left: 120px;
+	
+}
+.intro h1{
+	font-family: "defatted milk";
+	font-size: 100px;
+	margin-bottom: -10px;	
+	letter-spacing: 2px;
+	font-weight: 600;
+	color: #fff;
+}
+.intro p{
+	font-family: "Calibri";
+	font-size: 15px;
+	margin-top: 0;
+	color: rgba(215,215,215,1.00);
+}
+.submit05{
+	width:100px;
+	height: 40px;
+	
+	border: none;
+	background-color: #3a6935;
+	color: white;
+	font-family: "Calibri";
+	font-size: 12px;
+	
+}
+.wow:first-child {
+      visibility: hidden;
+    }
